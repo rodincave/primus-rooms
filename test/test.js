@@ -27,7 +27,8 @@ Object.defineProperty(client, 'port', {
 // creates the client
 function client(srv, primus, port){
   var addr = srv.address()
-    , url = 'http://' + addr.address + ':' + (port || addr.port);
+    , url = 'http://' + "localhost" + ':' + (port || addr.port);
+    console.log(url);
   return new primus.Socket(url);
 }
 

@@ -29,7 +29,7 @@
   "dependencies": {
     "debug": "0.7.x",
     "batch": "0.5.x",
-    "primus-rooms-adapter": "https://github.com/rodincave/primus-rooms-adapter.git"
+    "primus-rooms-adapter": "git://github.com/rodincave/primus-rooms-adapter.git"
   },
   "devDependencies": {
     "mocha": "*",
